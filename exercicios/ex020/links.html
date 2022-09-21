@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 23px;
+            background-color: rgb(253, 211, 211);
+        }
+        a {
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+            text-align: center;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            font-size: 25px;
+            color: black;
+            text-decoration: underline;
+            background-color: rgb(255, 130, 130);
+        }
+        a:active {
+            color: yellow;
+        }
+        .especial::before {
+            content: ' -->';
+        }
+        .especial::after {
+            content: ' <--';
+        }
+        .especial {
+            background-color: rgb(240, 159, 159);
+            text-decoration: dotted;
+        }
+        div {
+            height: 25px;
+            width: 160px;
+            background-color: brown;
+            border: 2px solid rgb(71, 21, 21);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara/html-css/tree/master/aulas-pdf" target="_blank">Repositorio GhitHub</a></li>
+        <li title="Link"><a href="https://www.youtube.com/watch?v=Ejkb_YpuHWs&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n" target="_blank" class="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="_blank">Site do Canal</a></li>
+        <div>
+            <li>01</li>
+        </div>
+    </ul>
+</body>
+</html>

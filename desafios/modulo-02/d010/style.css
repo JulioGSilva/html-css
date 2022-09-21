@@ -1,0 +1,114 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+}
+body {
+    background-color: #84e1ad;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+span {
+    color: #175031;
+    font-weight: bold;
+}
+header {
+    text-align: center;
+    background-color: #289056;
+    margin: 0px;
+    padding: 5px;
+    color: white;
+    background-image: linear-gradient(to top, #175031, #3cd983);
+}
+header > h1 {
+    font-family: 'idroid' Arial, Helvetica, sans-serif;
+}
+main > h1 {
+    margin: 2px;
+    color: #23613f;
+    text-indent: 10px;
+}
+h2#cab {
+    background-color: #c5ebd5;
+    color: #23613f;
+    text-indent: 10px;
+    background-image: linear-gradient(to right, #c5ebd5, rgb(255, 255, 255));
+}
+menu {
+    text-align: left;
+    padding: 2px;
+    margin: 2px;
+    text-decoration: none;
+    color: white;
+}
+menu:hover {
+    color: white;
+}
+a#cab {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+main {
+    background-color: white;
+    margin: 0px 200px 0px 200px;
+    padding: 30px;
+    border: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+article {
+    text-indent: 20px;
+}
+picture {
+    margin: auto;
+    padding: 45px;
+    border: 0px;
+}
+p#pospic {
+    text-align: justify;
+    text-indent: 20px;
+}
+div#vid {
+    background-color: #175031;
+    padding: 20px 40px 20px 40px;
+    margin: -30px;
+}
+div#extra {
+    background-color: #c5ebd6;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px rgb(214, 214, 214);
+}
+div#extra > p {
+    text-indent: 50px;
+    text-align: justify;
+    padding: 2px;
+}
+p#ex {
+    background-color: #2fa866;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+footer {
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+    background-color: #1a5c38;
+    margin-top: 20px;
+}
+footer > p {
+    margin: 0px;
+    font-size: 16px;
+    color: white;
+}
+div.ima {
+    text-align: center;
+}
+li {
+    display: inline-block;
+}
