@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: rgb(255, 255, 174);
+    background-image: url(imagens/background001.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    display: block;
+}
+
+header > h1 {
+    margin: auto;
+    padding-top: 15px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+header > a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+section#sec1 {
+    background-color: white;
+    height: 400px;
+    
