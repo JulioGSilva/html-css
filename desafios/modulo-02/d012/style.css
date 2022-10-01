@@ -10,16 +10,9 @@
     --font3: 'sriracha', cursive;
 }
 
-body {
+html, body {
     background-color: darkgray;
-    background-image: url(imagens/background001.jpg), url(imagens/background002.jpg);
-    background-size: 100%;
-    background-repeat: repeat;
-    background-attachment: fixed;
     min-height: 100vh;
-    display: block;
-    background-position: right center;
-    background-size: cover;
 }
 
 * {
@@ -43,6 +36,7 @@ header > h1 {
     padding-top: 50px;
     font-size: 3em;
     font-weight: normal;
+    font-variant: small-caps;
 }
 
 header > p > a {
@@ -60,49 +54,51 @@ a:hover {
     text-decoration: underline;
 }
 
-.normal {
+section.normal {
     background-color: white;
-    font-family: var(--font3);
-    padding-left: 30px;
-    padding-top: 10vh;
     padding-bottom: 10vh;
-    font-size: 3.5vw;
-    display: block;
-    line-height: 2em;
-    box-shadow: 6px 6px 13px 0px black;
+    padding-top: 10vh;
+    padding-left: 30px;
 }
 
 .normal > p {
+    font-size: 3.5vw;
+    font-family: var(--font3);
+    line-height: 2em;
     padding-bottom: 2em;
 }
 
 .imagem {
-    display: block;
-    background-color: rgba(0, 0, 0, 0.514);
+    background-color: rgba(0, 0, 0, 0.753);
     color: white;
-    font-family: var(--font3);
-    font-size: 3.5vw;
-    width: max-content;
-    margin: 30px;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    background-size: cover;
-    background-attachment: fixed;
     line-height: 2em;
+    padding-left: 30px;
+    padding-top: 10vw;
+    padding-bottom: 10vw
 }
 
 .imagem#img1 {
     background-image: url(imagens/background001.jpg);
     background-position: right center;
+    background-size: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .imagem#img2 {
     background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .imagem > p {
-    padding: 5px;
+    font-family: var(--font3);
+    font-size: 3.5vw;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.541);
+    display: inline-block;
 }
 
 footer {
