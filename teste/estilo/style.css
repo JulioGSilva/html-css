@@ -146,3 +146,22 @@ main > h1 {
     font-size: 12px;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.39);
 }
+
+#warning {
+    position: relative; top: 200px; left: 200px;
+    background-color: #c26200;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    display: inline;
+}
+
+#info {
+    position: relative; top: 200px; left: 200px;
+    background-color: #7d1038;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+}
