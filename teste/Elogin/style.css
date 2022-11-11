@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(90, 29, 148);
+}
+
+#login {
+    background-color: red;
+    height: 550px;
+    width: 350px;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5vh;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.300);
+}
+
+#formulario {
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#inome {
+    padding: 2px;
+}
+
+
+#inome {
+    margin: auto;
+    background-color: purple;
+    height: 40px;
+    width: 330px;
+    border-radius: 5px;
+}
+
+#isenha {
+    margin: auto;
+    background-color: purple;
+    height: 40px;
+    width: 330px;
+    border-radius: 5px;
+}
+
+img {
+    height: 200px;
+    width: 350px;
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+#key {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
