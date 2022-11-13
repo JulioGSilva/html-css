@@ -7,12 +7,13 @@
 
 body {
     background-color: rgb(90, 29, 148);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #login {
     background-color: red;
-    height: 550px;
-    width: 350px;
+    height: 590px;
+    width: 340px;
     border-radius: 20px;
     margin: auto;
     margin-top: 5vh;
@@ -21,11 +22,22 @@ body {
 
 #formulario {
     background-color: white;
-    width: 350px;
-    height: 350px;
+    width: 340px;
+    height: 390px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+}
 
+#formulario > h1 {
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#formulario > p {
+    padding: 10px;
+    text-indent: 5px;
 }
 
 #inome {
@@ -38,7 +50,7 @@ body {
     background-color: purple;
     height: 40px;
     width: 330px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 #isenha {
@@ -51,7 +63,7 @@ body {
 
 img {
     height: 200px;
-    width: 350px;
+    width: 340px;
     display: block;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -62,4 +74,23 @@ img {
     color: white;
     font-weight: bold;
     padding: 5px;
+}
+
+#person {
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    position: relative;
+    top: 3px;
+    display: inline-block;
+}
+
+#nome {
+    padding: 5px;
+    position: relative;
+    width: 20vw;
+    top: -5px;
+    left: 4px;
+    border-radius: 10px;
+    height: 4vh;
 }
