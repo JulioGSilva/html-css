@@ -18,11 +18,11 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente, faça loguin para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="loguin.php" method="post">
+                <form action="loguin.php" method="post" id="form">
                     <div id="inome">
                         <label for="nome">
                             <div id="person">
-                                <span class="material-symbols-outlined" id="">
+                                <span class="material-symbols-outlined" id="person">
                                     person
                                 </span>
                             </div>
@@ -38,6 +38,8 @@
                         </label>
                         <input type="password" name="senha" id="pass">
                     </div>
+                    <button type="submit" id="enter">Entrar</button>
+                    <button type="submit" id="forg">Esqueci a senha</button>
                 </form>
             </div>
         </section>
